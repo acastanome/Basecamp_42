@@ -1,0 +1,1 @@
+find . -name man -delete -or -name "#*#" -print -delete -or -name "#" -print -delete

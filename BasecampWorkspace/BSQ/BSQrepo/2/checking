@@ -1,0 +1,36 @@
+
+- Check if map -> first line, 1st char 0-> no map									Alba
+					-> check obst, empty, map are different chars ( no .xx)			Alba
+- Check valid input -> check line lengths ==										Started in valid_check.c, not made
+					-> check line chars to be only == to srtuct elements			Alba
+					-> full map? one empty char minimum								Alba
+- Handle stdin:																		Milan
+				-> first line define obstacle, empty, filled: struct in ft.h
+
+-Calculate max square, and position of it. max vs current, keep max if == .
+ (keep 1st encountered always)
+
+
+
+GOOD MORNING! I hope you slept well and had nice dreams :)
+					I added a lot of stuff, and it might be they dont make as much sense in the morning as I think they do now `:)
+					so, you don´t have to go through all this and try to make sense of my night madness!! we can look at it tomorrow together,
+					if it still makes sense then
+					If you do not however hear thy warning, there might be a bit of inconsistency refering to the grid as t_grid grid.
+					I did that for now in case we realized it needed more elements than just the char **grid
+
+
+ valid.check.c	->	has the tests that will use the info
+ map_and_grid.c	->	creates grid from argv.
+ 					we could iterate over it as long as there is arguments
+					but since it needs to be combined with all other things that need to be done to each map,I left it for now
+
+
+	Now i´m thinking we could have a function that would call creategrid_argv/ another depending if there is no argvs
+	And return a grid (thinking... too many functions?)
+
+
+	TO DO: Open file OR get map from stdin
+	RESULT: Get fd or the map for traversing - the fd needs to be a variable read (0, buffer, buffersize)
+	TO DO: Use open to traverse fd byte by byte OR traverse the map from stdin byte by byte 
+	RESULT:  

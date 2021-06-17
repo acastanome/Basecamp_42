@@ -1,0 +1,13 @@
+
+
+Good morning! So... I got carried away with this.
+
+In the sudoku.c in ex00_acastano there is
+put together Olga's main and print with my sudoku and helper functions:
+1. to check if certain number can be placed in x,y position, it calls other functions to:
+a. check if it is already in that row,
+b. check if it is already in that column,
+c. check if it is already in that square.
+
+I was testing with Julius's test1 and got pretty close but can't now see where to make
+the backtracking step so it will work. Hope this helps and talk to you later!

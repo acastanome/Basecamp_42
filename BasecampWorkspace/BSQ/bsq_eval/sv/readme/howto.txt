@@ -1,0 +1,6 @@
+
+- talletetaan char *stringiin filen sisältö (argv[1])
+- strlen()
+- suorita create_grid (luo char gridin, määrittää e,o,f ja x,y) (malloc)
+- solver(grid, e,o,f, x,y)
+- fill(grid, char f, width, alotuskoordinaatit) -> print(grid, x, y)

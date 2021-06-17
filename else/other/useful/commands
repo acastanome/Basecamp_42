@@ -1,0 +1,6 @@
+alias norm="norminette -R CheckForbiddenSourceHeader" to use write: norm nameoffile.c
+
+alias ggcf="gcc -Wall -Wextra -Werror" to use write: gccf nameoffile.c
+
+diff -y --suppress-common-lines ./repod05/ex01/ft_putnbr.c ./testing/ft_putnbr.c
+

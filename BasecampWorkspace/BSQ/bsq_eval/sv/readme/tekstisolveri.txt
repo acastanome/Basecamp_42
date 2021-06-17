@@ -1,0 +1,36 @@
+1) tarkista onko nykyinen merkki tyhjä, side = 1
+2) jos on -> side++, tarkista jo tarkastatetuilta 1 lisää ja seuraavalta side verran
+
+3) sit jos kaikki ei tyhjiä -> palauta side
+-> jos side > aiempi max_side -> re-define, tallenna i,j (vas. yläkulman koordinaatti)
+
+
+
+
+
+
+
+1  2  3  4  5  6  7
+2  2  3  4  5  6  7
+3  3  3  4  5  6  7
+4  4  4  4  5  6  7
+5  5  5  5  5  6  7
+6  6  6  6  6  6  7
+7  7  7  7  7  7  7
+temp = 1;
+while(grid[x][y])
+temp++;
+side_x = temp
+side_y = temp
+while(side_y > 0)
+	while(side_x > 0)
+		if grid[i][j] == e
+			i++
+			side_x--;
+		i = x;
+		j++;
+	side_x = temp;
+	side_y--;
+	j = y;
+
+return temp
