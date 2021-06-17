@@ -1,0 +1,11 @@
+
+- Check if map -> first line, 1st char 0-> no map ELSE:
+				-> first line define obstacle, empty, filled: struct
+					-> check obst, empty, map are different chars ( no .xx)
+- Check valid input -> check line lengths ==
+					-> check line chars to be only == to srtuct elements
+					-> full map? one empty char minimum
+- Handle stdin: Milan
+
+-Calculate max square, and position of it. max vs current, keep max if == .
+ (keep 1st encountered always)

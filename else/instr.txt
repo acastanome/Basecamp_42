@@ -1,0 +1,3 @@
+for example to test ex00:
+to use trangs testees d13
+gcc -Wall -Wextra -Werror main00.c btree_create_node.c -L <path to library here> -ltest13
